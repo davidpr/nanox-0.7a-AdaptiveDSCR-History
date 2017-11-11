@@ -1,0 +1,831 @@
+libnanox_throttle_hysteresis_la-hysteresis_throttle.lo: \
+ ../../../../src/plugins/throttle/hysteresis_throttle.cpp \
+ ../../../../src/support/new_decl.hpp /usr/include/c++/4.7/new \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/cpu_defines.h \
+ /usr/include/c++/4.7/exception \
+ /usr/include/c++/4.7/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.7/cstdlib /usr/include/stdlib.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h ../../../../src/core/throttle_decl.hpp \
+ ../../../../src/core/system.hpp ../../../../src/core/system_decl.hpp \
+ ../../../../src/core/processingelement_decl.hpp \
+ ../../../../src/core/workdescriptor_decl.hpp \
+ /usr/include/c++/4.7/utility /usr/include/c++/4.7/bits/stl_relops.h \
+ /usr/include/c++/4.7/bits/stl_pair.h /usr/include/c++/4.7/bits/move.h \
+ /usr/include/c++/4.7/bits/concept_check.h /usr/include/c++/4.7/vector \
+ /usr/include/c++/4.7/bits/stl_algobase.h \
+ /usr/include/c++/4.7/bits/functexcept.h \
+ /usr/include/c++/4.7/bits/exception_defines.h \
+ /usr/include/c++/4.7/bits/cpp_type_traits.h \
+ /usr/include/c++/4.7/ext/type_traits.h \
+ /usr/include/c++/4.7/ext/numeric_traits.h \
+ /usr/include/c++/4.7/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.7/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.7/bits/stl_iterator.h \
+ /usr/include/c++/4.7/debug/debug.h /usr/include/c++/4.7/bits/allocator.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/c++allocator.h \
+ /usr/include/c++/4.7/ext/new_allocator.h \
+ /usr/include/c++/4.7/bits/stl_construct.h \
+ /usr/include/c++/4.7/ext/alloc_traits.h \
+ /usr/include/c++/4.7/bits/stl_uninitialized.h \
+ /usr/include/c++/4.7/bits/stl_vector.h \
+ /usr/include/c++/4.7/bits/stl_bvector.h \
+ /usr/include/c++/4.7/bits/range_access.h \
+ /usr/include/c++/4.7/bits/vector.tcc \
+ ../../../../src/core/workgroup_decl.hpp \
+ ../../../../src/support/atomic_decl.hpp \
+ ../../../../src/support/compatibility.hpp \
+ /usr/include/c++/4.7/tr1/unordered_map \
+ /usr/include/c++/4.7/bits/stl_function.h \
+ /usr/include/c++/4.7/backward/binders.h \
+ /usr/include/c++/4.7/bits/stringfwd.h \
+ /usr/include/c++/4.7/tr1/type_traits \
+ /usr/include/c++/4.7/tr1/functional_hash.h \
+ /usr/include/c++/4.7/tr1/hashtable.h \
+ /usr/include/c++/4.7/tr1/hashtable_policy.h \
+ /usr/include/c++/4.7/tr1/unordered_map.h /usr/include/c++/4.7/tr1/memory \
+ /usr/include/c++/4.7/memory /usr/include/c++/4.7/bits/stl_tempbuf.h \
+ /usr/include/c++/4.7/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/4.7/backward/auto_ptr.h /usr/include/c++/4.7/typeinfo \
+ /usr/include/c++/4.7/iosfwd /usr/include/c++/4.7/bits/postypes.h \
+ /usr/include/c++/4.7/cwchar /usr/include/wchar.h /usr/include/stdio.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdarg.h \
+ /usr/include/bits/wchar.h /usr/include/c++/4.7/ext/atomicity.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/gthr.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/signal.h /usr/include/bits/setjmp.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/atomic_word.h \
+ /usr/include/c++/4.7/ext/concurrence.h \
+ /usr/include/c++/4.7/tr1/shared_ptr.h ../../../../src/core/nanos-int.h \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdint.h \
+ /usr/include/stdint.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdbool.h \
+ /usr/include/c++/4.7/algorithm /usr/include/c++/4.7/bits/stl_algo.h \
+ /usr/include/c++/4.7/bits/algorithmfwd.h \
+ /usr/include/c++/4.7/bits/stl_heap.h \
+ ../../../../src/core/dependenciesdomain_decl.hpp \
+ /usr/include/c++/4.7/map /usr/include/c++/4.7/bits/stl_tree.h \
+ /usr/include/c++/4.7/bits/stl_map.h \
+ /usr/include/c++/4.7/bits/stl_multimap.h /usr/include/c++/4.7/list \
+ /usr/include/c++/4.7/bits/stl_list.h /usr/include/c++/4.7/bits/list.tcc \
+ /usr/include/c++/4.7/string /usr/include/c++/4.7/bits/char_traits.h \
+ /usr/include/c++/4.7/bits/localefwd.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/c++locale.h \
+ /usr/include/c++/4.7/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/4.7/cctype \
+ /usr/include/ctype.h /usr/include/c++/4.7/bits/ostream_insert.h \
+ /usr/include/c++/4.7/bits/cxxabi_forced.h \
+ /usr/include/c++/4.7/bits/basic_string.h \
+ /usr/include/c++/4.7/bits/basic_string.tcc \
+ ../../../../src/core/dependableobject_decl.hpp /usr/include/c++/4.7/set \
+ /usr/include/c++/4.7/bits/stl_set.h \
+ /usr/include/c++/4.7/bits/stl_multiset.h \
+ ../../../../src/core/dataaccess_decl.hpp \
+ ../../../../src/core/nanos-int.h /usr/include/c++/4.7/cstddef \
+ ../../../../src/core/dependenciesdomain_fwd.hpp \
+ ../../../../src/core/basedependency_fwd.hpp \
+ ../../../../src/core/trackableobject_decl.hpp \
+ ../../../../src/core/commutationdepobj_decl.hpp \
+ ../../../../src/core/basedependency_decl.hpp \
+ ../../../../src/core/schedule_fwd.hpp \
+ ../../../../src/core/synchronizedcondition_decl.hpp \
+ ../../../../src/support/debug.hpp /usr/include/c++/4.7/stdexcept \
+ ../../../../src/support/xstring.hpp /usr/include/c++/4.7/sstream \
+ /usr/include/c++/4.7/istream /usr/include/c++/4.7/ios \
+ /usr/include/c++/4.7/bits/ios_base.h \
+ /usr/include/c++/4.7/bits/locale_classes.h \
+ /usr/include/c++/4.7/bits/locale_classes.tcc \
+ /usr/include/c++/4.7/streambuf /usr/include/c++/4.7/bits/streambuf.tcc \
+ /usr/include/c++/4.7/bits/basic_ios.h \
+ /usr/include/c++/4.7/bits/locale_facets.h /usr/include/c++/4.7/cwctype \
+ /usr/include/wctype.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/ctype_base.h \
+ /usr/include/c++/4.7/bits/streambuf_iterator.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/ctype_inline.h \
+ /usr/include/c++/4.7/bits/locale_facets.tcc \
+ /usr/include/c++/4.7/bits/basic_ios.tcc /usr/include/c++/4.7/ostream \
+ /usr/include/c++/4.7/bits/ostream.tcc \
+ /usr/include/c++/4.7/bits/istream.tcc \
+ /usr/include/c++/4.7/bits/sstream.tcc /usr/include/c++/4.7/iostream \
+ ../../../../src/core/workdescriptor_fwd.hpp \
+ ../../../../src/core/dependableobjectwd_decl.hpp \
+ ../../../../src/core/copydata_decl.hpp \
+ ../../../../src/support/lazy_decl.hpp \
+ ../../../../src/support/atomic_decl.hpp \
+ ../../../../src/core/instrumentationcontext_decl.hpp \
+ /usr/include/c++/4.7/stack /usr/include/c++/4.7/deque \
+ /usr/include/c++/4.7/bits/stl_deque.h \
+ /usr/include/c++/4.7/bits/deque.tcc \
+ /usr/include/c++/4.7/bits/stl_stack.h \
+ ../../../../src/core/instrumentation_decl.hpp \
+ ../../../../src/support/compatibility.hpp \
+ ../../../../src/core/instrumentationcontext_fwd.hpp \
+ ../../../../src/support/allocator_decl.hpp \
+ ../../../../src/core/nanos_error.h \
+ ../../../../src/support/allocator_fwd.hpp \
+ ../../../../src/support/new_decl.hpp ../../../../src/support/malign.hpp \
+ /usr/include/c++/4.7/cstring /usr/include/string.h \
+ ../../../../src/core/basethread_fwd.hpp \
+ ../../../../src/core/slicer_fwd.hpp \
+ ../../../../src/core/processingelement_fwd.hpp \
+ ../../../../src/core/wddeque_fwd.hpp \
+ ../../../../src/core/directory_decl.hpp \
+ ../../../../src/support/cache_fwd.hpp \
+ ../../../../src/support/hashmap_decl.hpp \
+ ../../../../src/support/list_decl.hpp \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include-fixed/limits.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/c++/4.7/iterator \
+ /usr/include/c++/4.7/bits/stream_iterator.h \
+ ../../../../src/core/cache_map_decl.hpp \
+ /home/dprat/Applications/papi-5.3.0/include/papi.h \
+ /home/dprat/Applications/papi-5.3.0/include/papiStdEventDefs.h \
+ /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/asm/sigcontext.h /usr/include/asm/ptrace.h \
+ /usr/include/asm/elf.h /usr/include/linux/types.h \
+ /usr/include/asm/types.h /usr/include/asm-generic/int-l64.h \
+ /usr/include/asm/bitsperlong.h /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/cputable.h \
+ /usr/include/asm/auxvec.h /usr/include/bits/sigstack.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/sigthread.h \
+ ../../../../src/support/functors_decl.hpp \
+ ../../../../src/core/throttle_decl.hpp \
+ ../../../../src/core/schedule_decl.hpp \
+ ../../../../src/core/synchronizedcondition_fwd.hpp \
+ ../../../../src/core/system_fwd.hpp \
+ ../../../../src/core/basethread_decl.hpp \
+ ../../../../src/core/threadteam_fwd.hpp \
+ ../../../../src/core/wddeque_decl.hpp /usr/include/c++/4.7/functional \
+ ../../../../src/core/threadteam_decl.hpp \
+ ../../../../src/core/barrier_decl.hpp \
+ ../../../../src/core/slicer_decl.hpp \
+ ../../../../src/core/worksharing_decl.hpp \
+ ../../../../src/core/dataaccess_fwd.hpp \
+ ../../../../src/core/pminterface_decl.hpp \
+ ../../../../src/support/config_fwd.hpp \
+ ../../../../src/support/plugin_decl.hpp \
+ ../../../../src/support/config_decl.hpp \
+ ../../../../src/support/archplugin_decl.hpp \
+ ../../../../src/support/plugin_decl.hpp \
+ ../../../../src/core/processingelement_fwd.hpp \
+ ../../../../src/core/schedule.hpp ../../../../src/support/atomic.hpp \
+ ../../../../src/core/basethread_decl.hpp \
+ ../../../../src/core/instrumentationmodule_decl.hpp \
+ ../../../../src/core/instrumentation.hpp ../../../../src/core/system.hpp \
+ ../../../../src/support/functors.hpp \
+ ../../../../src/support/functors_decl.hpp \
+ ../../../../src/core/threadteam.hpp ../../../../src/core/slicer.hpp \
+ ../../../../src/core/workdescriptor.hpp /usr/include/c++/4.7/climits \
+ ../../../../src/core/workgroup.hpp \
+ ../../../../src/core/synchronizedcondition.hpp \
+ ../../../../src/core/basethread.hpp \
+ ../../../../src/core/processingelement.hpp \
+ ../../../../src/core/dependableobjectwd.hpp \
+ ../../../../src/core/dependableobject.hpp \
+ ../../../../src/core/dataaccess.hpp ../../../../src/core/copydata.hpp \
+ ../../../../src/support/lazy.hpp ../../../../src/support/lazy_decl.hpp \
+ ../../../../src/support/atomic.hpp \
+ ../../../../src/core/instrumentationcontext.hpp \
+ ../../../../src/core/directory.hpp ../../../../src/support/hashmap.hpp \
+ ../../../../src/support/hashmap_decl.hpp \
+ ../../../../src/support/list.hpp ../../../../src/support/cache_decl.hpp \
+ ../../../../src/support/cache_fwd.hpp ../../../../src/support/debug.hpp \
+ ../../../../src/core/directory_decl.hpp \
+ ../../../../src/support/copydescriptor_decl.hpp \
+ ../../../../src/core/cache_map.hpp \
+ ../../../../src/core/dependenciesdomain.hpp \
+ ../../../../src/core/trackableobject.hpp \
+ ../../../../src/core/commutationdepobj.hpp /usr/include/c++/4.7/cmath \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ ../../../../src/support/plugin.hpp ../../../../src/support/config.hpp \
+ ../../../../src/support/config.hpp
+
+../../../../src/support/new_decl.hpp:
+
+/usr/include/c++/4.7/new:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/c++config.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/cpu_defines.h:
+
+/usr/include/c++/4.7/exception:
+
+/usr/include/c++/4.7/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.7/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stddef.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+../../../../src/core/throttle_decl.hpp:
+
+../../../../src/core/system.hpp:
+
+../../../../src/core/system_decl.hpp:
+
+../../../../src/core/processingelement_decl.hpp:
+
+../../../../src/core/workdescriptor_decl.hpp:
+
+/usr/include/c++/4.7/utility:
+
+/usr/include/c++/4.7/bits/stl_relops.h:
+
+/usr/include/c++/4.7/bits/stl_pair.h:
+
+/usr/include/c++/4.7/bits/move.h:
+
+/usr/include/c++/4.7/bits/concept_check.h:
+
+/usr/include/c++/4.7/vector:
+
+/usr/include/c++/4.7/bits/stl_algobase.h:
+
+/usr/include/c++/4.7/bits/functexcept.h:
+
+/usr/include/c++/4.7/bits/exception_defines.h:
+
+/usr/include/c++/4.7/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.7/ext/type_traits.h:
+
+/usr/include/c++/4.7/ext/numeric_traits.h:
+
+/usr/include/c++/4.7/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.7/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.7/bits/stl_iterator.h:
+
+/usr/include/c++/4.7/debug/debug.h:
+
+/usr/include/c++/4.7/bits/allocator.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/c++allocator.h:
+
+/usr/include/c++/4.7/ext/new_allocator.h:
+
+/usr/include/c++/4.7/bits/stl_construct.h:
+
+/usr/include/c++/4.7/ext/alloc_traits.h:
+
+/usr/include/c++/4.7/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.7/bits/stl_vector.h:
+
+/usr/include/c++/4.7/bits/stl_bvector.h:
+
+/usr/include/c++/4.7/bits/range_access.h:
+
+/usr/include/c++/4.7/bits/vector.tcc:
+
+../../../../src/core/workgroup_decl.hpp:
+
+../../../../src/support/atomic_decl.hpp:
+
+../../../../src/support/compatibility.hpp:
+
+/usr/include/c++/4.7/tr1/unordered_map:
+
+/usr/include/c++/4.7/bits/stl_function.h:
+
+/usr/include/c++/4.7/backward/binders.h:
+
+/usr/include/c++/4.7/bits/stringfwd.h:
+
+/usr/include/c++/4.7/tr1/type_traits:
+
+/usr/include/c++/4.7/tr1/functional_hash.h:
+
+/usr/include/c++/4.7/tr1/hashtable.h:
+
+/usr/include/c++/4.7/tr1/hashtable_policy.h:
+
+/usr/include/c++/4.7/tr1/unordered_map.h:
+
+/usr/include/c++/4.7/tr1/memory:
+
+/usr/include/c++/4.7/memory:
+
+/usr/include/c++/4.7/bits/stl_tempbuf.h:
+
+/usr/include/c++/4.7/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/4.7/backward/auto_ptr.h:
+
+/usr/include/c++/4.7/typeinfo:
+
+/usr/include/c++/4.7/iosfwd:
+
+/usr/include/c++/4.7/bits/postypes.h:
+
+/usr/include/c++/4.7/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdarg.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/c++/4.7/ext/atomicity.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/gthr.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/atomic_word.h:
+
+/usr/include/c++/4.7/ext/concurrence.h:
+
+/usr/include/c++/4.7/tr1/shared_ptr.h:
+
+../../../../src/core/nanos-int.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdbool.h:
+
+/usr/include/c++/4.7/algorithm:
+
+/usr/include/c++/4.7/bits/stl_algo.h:
+
+/usr/include/c++/4.7/bits/algorithmfwd.h:
+
+/usr/include/c++/4.7/bits/stl_heap.h:
+
+../../../../src/core/dependenciesdomain_decl.hpp:
+
+/usr/include/c++/4.7/map:
+
+/usr/include/c++/4.7/bits/stl_tree.h:
+
+/usr/include/c++/4.7/bits/stl_map.h:
+
+/usr/include/c++/4.7/bits/stl_multimap.h:
+
+/usr/include/c++/4.7/list:
+
+/usr/include/c++/4.7/bits/stl_list.h:
+
+/usr/include/c++/4.7/bits/list.tcc:
+
+/usr/include/c++/4.7/string:
+
+/usr/include/c++/4.7/bits/char_traits.h:
+
+/usr/include/c++/4.7/bits/localefwd.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/c++locale.h:
+
+/usr/include/c++/4.7/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/c++/4.7/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/4.7/bits/ostream_insert.h:
+
+/usr/include/c++/4.7/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.7/bits/basic_string.h:
+
+/usr/include/c++/4.7/bits/basic_string.tcc:
+
+../../../../src/core/dependableobject_decl.hpp:
+
+/usr/include/c++/4.7/set:
+
+/usr/include/c++/4.7/bits/stl_set.h:
+
+/usr/include/c++/4.7/bits/stl_multiset.h:
+
+../../../../src/core/dataaccess_decl.hpp:
+
+../../../../src/core/nanos-int.h:
+
+/usr/include/c++/4.7/cstddef:
+
+../../../../src/core/dependenciesdomain_fwd.hpp:
+
+../../../../src/core/basedependency_fwd.hpp:
+
+../../../../src/core/trackableobject_decl.hpp:
+
+../../../../src/core/commutationdepobj_decl.hpp:
+
+../../../../src/core/basedependency_decl.hpp:
+
+../../../../src/core/schedule_fwd.hpp:
+
+../../../../src/core/synchronizedcondition_decl.hpp:
+
+../../../../src/support/debug.hpp:
+
+/usr/include/c++/4.7/stdexcept:
+
+../../../../src/support/xstring.hpp:
+
+/usr/include/c++/4.7/sstream:
+
+/usr/include/c++/4.7/istream:
+
+/usr/include/c++/4.7/ios:
+
+/usr/include/c++/4.7/bits/ios_base.h:
+
+/usr/include/c++/4.7/bits/locale_classes.h:
+
+/usr/include/c++/4.7/bits/locale_classes.tcc:
+
+/usr/include/c++/4.7/streambuf:
+
+/usr/include/c++/4.7/bits/streambuf.tcc:
+
+/usr/include/c++/4.7/bits/basic_ios.h:
+
+/usr/include/c++/4.7/bits/locale_facets.h:
+
+/usr/include/c++/4.7/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/ctype_base.h:
+
+/usr/include/c++/4.7/bits/streambuf_iterator.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/ctype_inline.h:
+
+/usr/include/c++/4.7/bits/locale_facets.tcc:
+
+/usr/include/c++/4.7/bits/basic_ios.tcc:
+
+/usr/include/c++/4.7/ostream:
+
+/usr/include/c++/4.7/bits/ostream.tcc:
+
+/usr/include/c++/4.7/bits/istream.tcc:
+
+/usr/include/c++/4.7/bits/sstream.tcc:
+
+/usr/include/c++/4.7/iostream:
+
+../../../../src/core/workdescriptor_fwd.hpp:
+
+../../../../src/core/dependableobjectwd_decl.hpp:
+
+../../../../src/core/copydata_decl.hpp:
+
+../../../../src/support/lazy_decl.hpp:
+
+../../../../src/support/atomic_decl.hpp:
+
+../../../../src/core/instrumentationcontext_decl.hpp:
+
+/usr/include/c++/4.7/stack:
+
+/usr/include/c++/4.7/deque:
+
+/usr/include/c++/4.7/bits/stl_deque.h:
+
+/usr/include/c++/4.7/bits/deque.tcc:
+
+/usr/include/c++/4.7/bits/stl_stack.h:
+
+../../../../src/core/instrumentation_decl.hpp:
+
+../../../../src/support/compatibility.hpp:
+
+../../../../src/core/instrumentationcontext_fwd.hpp:
+
+../../../../src/support/allocator_decl.hpp:
+
+../../../../src/core/nanos_error.h:
+
+../../../../src/support/allocator_fwd.hpp:
+
+../../../../src/support/new_decl.hpp:
+
+../../../../src/support/malign.hpp:
+
+/usr/include/c++/4.7/cstring:
+
+/usr/include/string.h:
+
+../../../../src/core/basethread_fwd.hpp:
+
+../../../../src/core/slicer_fwd.hpp:
+
+../../../../src/core/processingelement_fwd.hpp:
+
+../../../../src/core/wddeque_fwd.hpp:
+
+../../../../src/core/directory_decl.hpp:
+
+../../../../src/support/cache_fwd.hpp:
+
+../../../../src/support/hashmap_decl.hpp:
+
+../../../../src/support/list_decl.hpp:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include-fixed/limits.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/c++/4.7/iterator:
+
+/usr/include/c++/4.7/bits/stream_iterator.h:
+
+../../../../src/core/cache_map_decl.hpp:
+
+/home/dprat/Applications/papi-5.3.0/include/papi.h:
+
+/home/dprat/Applications/papi-5.3.0/include/papiStdEventDefs.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/asm/sigcontext.h:
+
+/usr/include/asm/ptrace.h:
+
+/usr/include/asm/elf.h:
+
+/usr/include/linux/types.h:
+
+/usr/include/asm/types.h:
+
+/usr/include/asm-generic/int-l64.h:
+
+/usr/include/asm/bitsperlong.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/asm/posix_types.h:
+
+/usr/include/asm/cputable.h:
+
+/usr/include/asm/auxvec.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+../../../../src/support/functors_decl.hpp:
+
+../../../../src/core/throttle_decl.hpp:
+
+../../../../src/core/schedule_decl.hpp:
+
+../../../../src/core/synchronizedcondition_fwd.hpp:
+
+../../../../src/core/system_fwd.hpp:
+
+../../../../src/core/basethread_decl.hpp:
+
+../../../../src/core/threadteam_fwd.hpp:
+
+../../../../src/core/wddeque_decl.hpp:
+
+/usr/include/c++/4.7/functional:
+
+../../../../src/core/threadteam_decl.hpp:
+
+../../../../src/core/barrier_decl.hpp:
+
+../../../../src/core/slicer_decl.hpp:
+
+../../../../src/core/worksharing_decl.hpp:
+
+../../../../src/core/dataaccess_fwd.hpp:
+
+../../../../src/core/pminterface_decl.hpp:
+
+../../../../src/support/config_fwd.hpp:
+
+../../../../src/support/plugin_decl.hpp:
+
+../../../../src/support/config_decl.hpp:
+
+../../../../src/support/archplugin_decl.hpp:
+
+../../../../src/support/plugin_decl.hpp:
+
+../../../../src/core/processingelement_fwd.hpp:
+
+../../../../src/core/schedule.hpp:
+
+../../../../src/support/atomic.hpp:
+
+../../../../src/core/basethread_decl.hpp:
+
+../../../../src/core/instrumentationmodule_decl.hpp:
+
+../../../../src/core/instrumentation.hpp:
+
+../../../../src/core/system.hpp:
+
+../../../../src/support/functors.hpp:
+
+../../../../src/support/functors_decl.hpp:
+
+../../../../src/core/threadteam.hpp:
+
+../../../../src/core/slicer.hpp:
+
+../../../../src/core/workdescriptor.hpp:
+
+/usr/include/c++/4.7/climits:
+
+../../../../src/core/workgroup.hpp:
+
+../../../../src/core/synchronizedcondition.hpp:
+
+../../../../src/core/basethread.hpp:
+
+../../../../src/core/processingelement.hpp:
+
+../../../../src/core/dependableobjectwd.hpp:
+
+../../../../src/core/dependableobject.hpp:
+
+../../../../src/core/dataaccess.hpp:
+
+../../../../src/core/copydata.hpp:
+
+../../../../src/support/lazy.hpp:
+
+../../../../src/support/lazy_decl.hpp:
+
+../../../../src/support/atomic.hpp:
+
+../../../../src/core/instrumentationcontext.hpp:
+
+../../../../src/core/directory.hpp:
+
+../../../../src/support/hashmap.hpp:
+
+../../../../src/support/hashmap_decl.hpp:
+
+../../../../src/support/list.hpp:
+
+../../../../src/support/cache_decl.hpp:
+
+../../../../src/support/cache_fwd.hpp:
+
+../../../../src/support/debug.hpp:
+
+../../../../src/core/directory_decl.hpp:
+
+../../../../src/support/copydescriptor_decl.hpp:
+
+../../../../src/core/cache_map.hpp:
+
+../../../../src/core/dependenciesdomain.hpp:
+
+../../../../src/core/trackableobject.hpp:
+
+../../../../src/core/commutationdepobj.hpp:
+
+/usr/include/c++/4.7/cmath:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+../../../../src/support/plugin.hpp:
+
+../../../../src/support/config.hpp:
+
+../../../../src/support/config.hpp:

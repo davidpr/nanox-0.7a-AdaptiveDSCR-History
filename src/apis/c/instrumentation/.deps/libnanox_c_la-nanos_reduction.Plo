@@ -1,0 +1,80 @@
+libnanox_c_la-nanos_reduction.lo: \
+ ../../../../src/apis/c/nanos_reduction.cpp \
+ ../../../../src/support/new_decl.hpp /usr/include/c++/4.7/new \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/cpu_defines.h \
+ /usr/include/c++/4.7/exception \
+ /usr/include/c++/4.7/bits/atomic_lockfree_defines.h \
+ ../../../../src/apis/c/nanos_reduction.h \
+ ../../../../src/core/nanos-int.h /usr/include/stdio.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdbool.h
+
+../../../../src/support/new_decl.hpp:
+
+/usr/include/c++/4.7/new:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/c++config.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/cpu_defines.h:
+
+/usr/include/c++/4.7/exception:
+
+/usr/include/c++/4.7/bits/atomic_lockfree_defines.h:
+
+../../../../src/apis/c/nanos_reduction.h:
+
+../../../../src/core/nanos-int.h:
+
+/usr/include/stdio.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdbool.h:

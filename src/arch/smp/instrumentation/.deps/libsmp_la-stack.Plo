@@ -1,0 +1,48 @@
+libsmp_la-stack.lo: ../../../../src/arch/smp/ppc64/stack.cpp \
+ ../../../../src/support/new_decl.hpp /usr/include/c++/4.7/new \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/cpu_defines.h \
+ /usr/include/c++/4.7/exception \
+ /usr/include/c++/4.7/bits/atomic_lockfree_defines.h \
+ ../../../../src/arch/smp/smp_ult.hpp \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stddef.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h
+
+../../../../src/support/new_decl.hpp:
+
+/usr/include/c++/4.7/new:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/c++config.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/cpu_defines.h:
+
+/usr/include/c++/4.7/exception:
+
+/usr/include/c++/4.7/bits/atomic_lockfree_defines.h:
+
+../../../../src/arch/smp/smp_ult.hpp:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stddef.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:

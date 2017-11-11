@@ -1,0 +1,37 @@
+libsupport_la-new.lo: ../../../src/support/new.cpp \
+ ../../../src/support/new_decl.hpp /usr/include/c++/4.7/new \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/cpu_defines.h \
+ /usr/include/c++/4.7/exception \
+ /usr/include/c++/4.7/bits/atomic_lockfree_defines.h \
+ ../../../src/support/new_decl.hpp
+
+../../../src/support/new_decl.hpp:
+
+/usr/include/c++/4.7/new:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/c++config.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/cpu_defines.h:
+
+/usr/include/c++/4.7/exception:
+
+/usr/include/c++/4.7/bits/atomic_lockfree_defines.h:
+
+../../../src/support/new_decl.hpp:

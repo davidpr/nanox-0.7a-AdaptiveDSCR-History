@@ -1,0 +1,149 @@
+libnanox_omp_stubs_la-omp_stubs.lo: \
+ ../../../../src/pms/openmp/omp_stubs.cpp \
+ ../../../../src/support/new_decl.hpp /usr/include/c++/4.7/new \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/c++/4.7/powerpc64-suse-linux/bits/cpu_defines.h \
+ /usr/include/c++/4.7/exception \
+ /usr/include/c++/4.7/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.7/cstdlib /usr/include/stdlib.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h ../../../../src/pms/openmp/omp.h \
+ ../../../../src/pms/openmp/nanos_omp.h ../../../../src/apis/c/nanos.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h ../../../../src/core/nanos-int.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdbool.h \
+ ../../../../src/core/nanos_error.h \
+ ../../../../src/apis/c/nanos_version.h \
+ ../../../../src/apis/c/nanos_reduction.h \
+ ../../../../src/apis/c/nanos_atomic.h
+
+../../../../src/support/new_decl.hpp:
+
+/usr/include/c++/4.7/new:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/c++config.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/4.7/powerpc64-suse-linux/bits/cpu_defines.h:
+
+/usr/include/c++/4.7/exception:
+
+/usr/include/c++/4.7/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.7/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stddef.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+../../../../src/pms/openmp/omp.h:
+
+../../../../src/pms/openmp/nanos_omp.h:
+
+../../../../src/apis/c/nanos.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+../../../../src/core/nanos-int.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/lib64/gcc/powerpc64-suse-linux/4.7/include/stdbool.h:
+
+../../../../src/core/nanos_error.h:
+
+../../../../src/apis/c/nanos_version.h:
+
+../../../../src/apis/c/nanos_reduction.h:
+
+../../../../src/apis/c/nanos_atomic.h:
